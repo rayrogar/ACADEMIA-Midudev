@@ -45,10 +45,64 @@ flowchart TD
 
 |Plan|Reto|Solución Original|Solución Optimizada|Estado|Dificultad|
 |:--:|:-:|:---------------:|:-----------------:|:----:|:--------:|
-|30 Días JS|
-||[🧙 El códice de Arkanus](https://midu.dev/retos/30-dias-de-javascript/el-codice-de-arkanus "Acceder al reto en la academia")|[📄Ver Código](/30%20Dias%20JS/1.🧙%20El%20códice%20de%20Arkanus.js)|[♻️Ver Optimización](/30%20Dias%20JS/%231.js)|✅|![](https://img.shields.io/badge/-%F0%9F%8C%B1-ffffff)
+||
+|30 Días JS|[🧙 El códice de Arkanus](https://midu.dev/retos/30-dias-de-javascript/el-codice-de-arkanus "Acceder al reto en la academia")|[📄Ver Código](/30%20Dias%20JS/1.🧙%20El%20códice%20de%20Arkanus.js)|[♻️Ver Optimización](/30%20Dias%20JS/%231.js)|✅|![](https://img.shields.io/badge/-%F0%9F%8C%B1-ffffff)
 
 ***Leyenda de estados:***  
 ***Estado:*** ✅ Completado · 🔄 En revisión · 🚧 En progreso  
 ***Dificultad:*** ![](https://img.shields.io/badge/-F%C3%A1cil_%F0%9F%8C%B1-ffffff) ![](https://img.shields.io/badge/-Medio_%E2%9A%94%EF%B8%8F-orange) ![](https://img.shields.io/badge/-Dif%C3%ADcil_%F0%9F%92%80-red) 
 
+## 🚀 Cómo Usar Este Repositorio
+1. Explora los retos: Navega por las carpetas organizadas por plan de estudios accede a la solución al reto deseado o a la optimización
+2. Compara Versiones: Cada solución tendra una optimización (si procede) propuesta por herramientas de inteligencia artificial especializadas en código.  
+    I. #.Nombre del reto.js (solución Original al reto #)  
+    II. #.js(Optimización al reto #)
+
+3. Ejecutar localmente:
+    ```
+    bash
+    ```
+    
+    
+    // Clona el repositorio  
+    git clone https://github.com/rayrogar/ACADEMIA-Midudev.git
+
+    //Navega al plan especifico
+    cd '.\30 Dias JS\'
+
+    //Ejecutar la solución
+    node "1.🧙 El códice de Arkanus.js"
+    
+## 🤖 Criterios de Optimización con IA
+Cuando consulto a sistemas de IA para mejorar mis soluciones, evalúo criterios como:
+* Legibilidad y claridad del código
+* Eficiencia algorítmica (complejidad temporal/espacial)
+* Buenas prácticas y convenciones del lenguaje
+* Manejo de casos límite y errores
+
+Solo implemento las sugerencias que:
+* Comprendo completamente y puedo explicar
+* Mejoran genuinamente la solución original
+* Respetan el espíritu del reto y mi estilo de código
+
+## 📝 Notas Importantes
+* No copio soluciones directamente, cada implementación parte de mi comprensión del problema.
+* Aprendizaje activo, el valor está en el proceso, no solo en la solución final.
+* Transparencia: Documento tanto mis aciertos como mis aprendizajes de los errores.
+* Contribuciones: Si tienes sugerencias constructivas, ¡las revisaré con gusto!
+
+## 🙏 Agradecimientos
+* [Midudev](https://midu.dev/), por crear y mantener la [Academia](https://midu.dev/academy) con cursos y retos tan valiosos.
+* Herramientas de IA que actún como mentores de código 24/7
+
+### 📬 Contacto
+¿Sugerencias, preguntas o quieres colaborar?  
+¡Abre un issue o envíame un mensaje!  
+
+<div align="center">
+Creado con ❤️ y mucho café.</div>
+<div align="center"> 
+![GitHub last commit](https://img.shields.io/github/last-commit/rayrogar/ACADEMIA-Midudev?label=Ultima%20Actualización)
+</div>
+<div align="center">
+⭐ Si este repositorio te resulta útil, ¡considera darle una estrella! ⭐</div>
