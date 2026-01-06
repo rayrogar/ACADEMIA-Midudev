@@ -27,3 +27,24 @@ flowchart TD
     E --> G[Publico ambas versiones]
     F --> G
 ```
+## 📁 Estructura del Repositorio
+```
+🧠 Soluciones a Retos de Programación - Academia Midudev 
+├── 📂 30 Días JS/
+│   ├── 📄 1.🧙 El códice de Arkanus.js
+│   ├── 📄 #1.js
+|   ├── 📄 # Nombre del reto precedido de su numero de orden.js
+|   ├── 📄 ## Numero de orden del reto precedido del símbolo de número (Se refiere a optimización).js
+│   └── 📄 README.md (explicación si es necesario)
+├── 📂 Otro-plan-de-estudio/
+│   ├── 📄 #.solucion-original.js
+│   └── 📄 ##.js Optimización
+├── 📄 Readme.md
+```
+## 📊 Índice de Soluciones
+
+|Plan|Reto|Solución Original|Solución Optimizada|Estado|Dificultad|
+|:--:|:-:|:---------------:|:-----------------:|:----:|:--------:|
+|30 Días JS|
+||[🧙 El códice de Arkanus](https://midu.dev/retos/30-dias-de-javascript/el-codice-de-arkanus "Acceder al reto en la academia")|[📄Ver Código](/30%20Dias%20JS/1.🧙%20El%20códice%20de%20Arkanus.js)|[♻️Ver Optimización](/30%20Dias%20JS/%231.js)||
+
