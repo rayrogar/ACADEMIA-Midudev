@@ -46,5 +46,9 @@ flowchart TD
 |Plan|Reto|Solución Original|Solución Optimizada|Estado|Dificultad|
 |:--:|:-:|:---------------:|:-----------------:|:----:|:--------:|
 |30 Días JS|
-||[🧙 El códice de Arkanus](https://midu.dev/retos/30-dias-de-javascript/el-codice-de-arkanus "Acceder al reto en la academia")|[📄Ver Código](/30%20Dias%20JS/1.🧙%20El%20códice%20de%20Arkanus.js)|[♻️Ver Optimización](/30%20Dias%20JS/%231.js)||
+||[🧙 El códice de Arkanus](https://midu.dev/retos/30-dias-de-javascript/el-codice-de-arkanus "Acceder al reto en la academia")|[📄Ver Código](/30%20Dias%20JS/1.🧙%20El%20códice%20de%20Arkanus.js)|[♻️Ver Optimización](/30%20Dias%20JS/%231.js)|✅|![](https://img.shields.io/badge/-%F0%9F%8C%B1-ffffff)
+
+***Leyenda de estados:***  
+***Estado:*** ✅ Completado · 🔄 En revisión · 🚧 En progreso  
+***Dificultad:*** ![](https://img.shields.io/badge/-F%C3%A1cil_%F0%9F%8C%B1-ffffff) ![](https://img.shields.io/badge/-Medio_%E2%9A%94%EF%B8%8F-orange) ![](https://img.shields.io/badge/-Dif%C3%ADcil_%F0%9F%92%80-red) 
 
