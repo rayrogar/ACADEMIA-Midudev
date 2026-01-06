@@ -100,9 +100,9 @@ Solo implemento las sugerencias que:
 ¡Abre un issue o envíame un mensaje!  
 
 <div align="center">
-Creado con ❤️ y mucho café.</div>
-<div align="center"> 
+
+Creado con ❤️ y mucho café.  
+⭐ Si este repositorio te resulta útil, ¡considera darle una estrella! ⭐  
 ![GitHub last commit](https://img.shields.io/github/last-commit/rayrogar/ACADEMIA-Midudev?label=Ultima%20Actualización)
+
 </div>
-<div align="center">
-⭐ Si este repositorio te resulta útil, ¡considera darle una estrella! ⭐</div>
