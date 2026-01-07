@@ -48,7 +48,7 @@ flowchart TD
 ||
 |30 Días JS|[🧙 El códice de Arkanus](https://midu.dev/retos/30-dias-de-javascript/el-codice-de-arkanus "Acceder al reto en la academia")|[📄Ver Código](/30%20Dias%20JS/1.🧙%20El%20códice%20de%20Arkanus.js)|[♻️Ver Optimización](/30%20Dias%20JS/%231.js)|✅|![](https://img.shields.io/badge/-%F0%9F%8C%B1-ffffff)|
 ||[🤖 Archivos comprometidos](https://midu.dev/retos/30-dias-de-javascript/archivos-comprometidos "Acceder al reto en la academia")|[📄Ver Código](/30%20Dias%20JS/2.🤖%20Archivos%20comprometidos.js)||✅|![](https://img.shields.io/badge/-%F0%9F%8C%B1-ffffff)|
-||[Conflictos de edición en tiempo real](https://midu.dev/retos/30-dias-de-javascript/conflictos-de-edicion-en-tiempo-real "Acceder al reto en la academia")|||🔄|![](https://img.shields.io/badge/%E2%9A%94%EF%B8%8F-orange)
+||[Conflictos de edición en tiempo real](https://midu.dev/retos/30-dias-de-javascript/conflictos-de-edicion-en-tiempo-real "Acceder al reto en la academia")|[📄Ver Código](/30%20Dias%20JS/%233.Conflictos%20de%20edición%20en%20tiempo%20real.js)|[♻️Ver Optimización](/30%20Dias%20JS/%233.js)|✅|![](https://img.shields.io/badge/%E2%9A%94%EF%B8%8F-orange)
 
 
 

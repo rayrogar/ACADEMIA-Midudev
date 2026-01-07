@@ -49,8 +49,12 @@ const cambiosA = [
                 }    
             }
 
-            fullText(firstUserChanges);
-            fullText(secondUserChanges)
+            //fullText(firstUserChanges);
+            //fullText(secondUserChanges)
+            //Otra optimización tambien era unir los 2 arrays de instrucciones en orden, en uno solo y aplicar la lógica
+            //a ese Array sin tener que abstraerla en una función aparte.
+             fullText([...firstUserChanges,...secondUserChanges]);
             return ans.join('');
 
 }
+
