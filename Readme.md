@@ -44,9 +44,12 @@ flowchart TD
 ## 📊 Índice de Soluciones
 
 |Plan|Reto|Solución Original|Solución Optimizada|Estado|Dificultad|
-|:--:|:-:|:---------------:|:-----------------:|:----:|:--------:|
+|:--:|:--|:---------------:|:-----------------:|:----:|:--------:|
 ||
-|30 Días JS|[🧙 El códice de Arkanus](https://midu.dev/retos/30-dias-de-javascript/el-codice-de-arkanus "Acceder al reto en la academia")|[📄Ver Código](/30%20Dias%20JS/1.🧙%20El%20códice%20de%20Arkanus.js)|[♻️Ver Optimización](/30%20Dias%20JS/%231.js)|✅|![](https://img.shields.io/badge/-%F0%9F%8C%B1-ffffff)
+|30 Días JS|[🧙 El códice de Arkanus](https://midu.dev/retos/30-dias-de-javascript/el-codice-de-arkanus "Acceder al reto en la academia")|[📄Ver Código](/30%20Dias%20JS/1.🧙%20El%20códice%20de%20Arkanus.js)|[♻️Ver Optimización](/30%20Dias%20JS/%231.js)|✅|![](https://img.shields.io/badge/-%F0%9F%8C%B1-ffffff)|
+||[🤖 Archivos comprometidos](https://midu.dev/retos/30-dias-de-javascript/archivos-comprometidos "Acceder al reto en la academia")|[📄Ver Código](/30%20Dias%20JS/2.🤖%20Archivos%20comprometidos.js)||✅|![](https://img.shields.io/badge/-%F0%9F%8C%B1-ffffff)|
+
+
 
 ***Leyenda de estados:***  
 ***Estado:*** ✅ Completado · 🔄 En revisión · 🚧 En progreso  

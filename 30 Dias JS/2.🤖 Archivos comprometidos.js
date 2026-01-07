@@ -1,0 +1,45 @@
+/**
+ * 🤖 Reto: Archivos comprometidos
+ * En el año 3025, las ciudades están controladas por Inteligencias Artificiales que almacenan registros de todos los movimientos humanos.
+ * 
+ * Cada cierto tiempo, los nodos de vigilancia hacen una descarga segura de datos para evitar pérdidas ante apagones del sistema.
+ * 
+ * Tienes el timestamp de la última descarga segura y un registro de modificaciones recientes que hicieron los drones. Cada modificación está representada
+ *  como un par: [ID del archivo, timestamp de modificación].
+ * 
+ * Tu misión es implementar la función getCompromisedFiles que devuelva un array con los IDs de los archivos modificados después de la última descarga, 
+ * ordenados de menor a mayor.
+ * 
+ * 📌 Reglas:
+ * Si al menos una modificación es posterior al lastSafeDownload, incluye ese ID.
+ * No repitas IDs, aunque aparezcan varias veces.
+ * Devuelve un array vacío si no hay archivos comprometidos.
+ * El resultado debe estar ordenado de forma ascendente.
+*/
+ 
+const lastSafeDownload = 1670000000
+ 
+const droneLogs = [
+  [42, 1670000500],
+  [13, 1670000000],
+  [8, 1670000700],
+  [8, 1670000001],
+  [99, 1669999999],
+]
+ 
+console.log(getCompromisedFiles(lastSafeDownload, droneLogs)); // => [8, 42]
+console.log(getCompromisedFiles(1670000000, [])); // => []
+console.log(getCompromisedFiles(1670000000, [[1, 1670000000]])); // => []
+console.log(getCompromisedFiles(100, [[5, 90], [5, 110]])); // => [5]
+console.log(getCompromisedFiles(100, [[-5, 110], [1000, 110], [1, 110]])); // => [-5, 1, 1000]
+
+function getCompromisedFiles(lastSafeDownload, droneLogs) {
+
+  const ans = new Set(); // Creamos un Set para garantizar que no se repitan llaves
+
+  for (const [record,timestamp] of droneLogs)
+    if(timestamp > lastSafeDownload)
+      ans.add(record);
+  
+  return [... ans].sort((a,b)=>a - b); //Desagregamos el Set en un Array para poder ordenar y devolver la respuesta correcta
+}
